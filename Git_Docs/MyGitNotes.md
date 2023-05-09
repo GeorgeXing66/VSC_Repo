@@ -5,13 +5,9 @@ by Geeorge
 
 </div>
 
-
-<div style="text-align: left">
-
+----------------------
 ## Git 简介
 Git是世界上先进的 **「分布式的版本控制系统」**
-
-</div>
 
 ## Git 构造图
 !["Git Structure"](git_diagram_1.png)
@@ -148,22 +144,18 @@ Reinitialized existing Git repository in C:/Users/czxin/Documents/VSC_文档/.gi
 - 在修改完成后，如果发现错误，可以撤提交并再次修改并提交。
 
 <dit align = center/>
-<img src="./git_working_flow.png" height = 800 width = 600>
+![](git_working_flowchart.jpg)
 
 ## Git 基本用法
 
 下图展示了Git的四条基本命令，如何在工作目录、暂存目录(也叫做索引)和仓库之间复制文件。
-
-<dit align = center/>
-<img src="./git_working_flow_2.png" height = 300 width = 400 backgound = white>
-
 - git add *files* 把当前文件放入暂存区域。
 - git commit 给暂存区域生成快照并提交。
 - git reset -- *files* 用来撤销最后一次git add *files*，你也可以用git reset 撤销所有暂存区域文件。
 - git checkout -- *files* 把文件从暂存区域复制到工作目录，用来丢弃本地修改。
 
 也可以跳过暂存区域直接从仓库取出文件或者直接提交代码。
-
+![](git_working_flowchart.jpg)
 <dit align = center/>
 <img src="./git_working_flow_3.png" height = 300 width = 600 backgound = white>
 
